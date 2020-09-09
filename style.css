@@ -49,7 +49,7 @@ section {
 .title-block p {
   font-size: 20px;
   font-weight: 300;
-  color: #5c6527;
+  color: #656482;
   margin-bottom: 0px;
 }
 
@@ -124,23 +124,88 @@ section {
 }
 
 #hero h1 {
-  font-size: 50px;
-  font-weight: 300;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 68px;
+  letter-spacing: 5px;
+  color: #656482;
+}
+
+#hero h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  color: #b4b4c9;
+}
+
+#hero small {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  color: #b4b4c9;
+}
+
+#hero small:hover {
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.3s;
+  font-size: 38px;
+  color: #656482;
+}
+
+#hero h6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 68px;
+  letter-spacing: 5px;
+  color: #656482;
+}
+
+#hero h6:hover {
+  font-size: 62px;
+  transition: 0.3s;
+  color: #b4b4c9;
 }
 
 #hero p {
-  font-size: 24px;
-  font-weight: 300;
-  color: #5c6527;
-  margin-bottom: 0px;
-  padding: 0px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #656482;
+}
+
+#hero p:hover {
+  font-weight: 900;
+  transition: 0.3s;
+  font-size: 38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #656482;
 }
 
 #hero span {
   font-weight: 400;
-  color: #4b5320;
+  color: #656482;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.hero-section {
+  background-image: url("assets/background3.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 /* PAST EXPERIENCE */
@@ -150,6 +215,14 @@ section {
   background-color: #f6f8f9;
   border-top: 1px solid #f8f9fb;
   border-bottom: 1px solid #f8f9fb;
+}
+
+.experience-section {
+  background-image: url("assets/background2.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* padding: 0px 0px !important; */
 }
 
 .experience-box {
@@ -162,7 +235,7 @@ section {
 }
 
 .experience-box:hover {
-  background-color: #dde3f0 !important;
+  background-color: #eaeef6 !important;
   transition: 0.3s;
   box-shadow: 0 1px 0 0 rgba(0, 12, 32, 0.04),
     0 10px 16px 0 rgba(10, 31, 68, 0.06);
@@ -177,7 +250,7 @@ section {
 }
 
 .experience-box p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   margin-top: 25px;
   line-height: 1.8;
@@ -193,15 +266,15 @@ section {
   display: inline-block;
 }
 
+.experience-box i {
+  color: #8da2b5;
+  display: inline-block;
+  font-size: 14px;
+}
+
 .experience-box span {
   font-size: 14px;
   color: #ffffff;
-}
-
-.rating {
-  background-color: #0095f7;
-  padding: 2px 12px;
-  border-radius: 50px;
 }
 
 .profile-picture {
@@ -267,7 +340,7 @@ section {
 }
 
 .cca-box:hover {
-  background-color: #dde3f0 !important;
+  background-color: #eaeef6 !important;
   transition: 0.3s;
   box-shadow: 0 1px 0 0 rgba(0, 12, 32, 0.04),
     0 10px 16px 0 rgba(10, 31, 68, 0.06);
@@ -331,9 +404,24 @@ section {
   color: #62656a !important;
 }
 
+.cca-section {
+  background-image: url("assets/background1.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* padding: 0px 0px !important; */
+}
+
 /* ABOUT */
 /* ABOUT */
 /* ABOUT */
+
+.about-section {
+  background-image: url("assets/background4.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 #about h3 {
   font-size: 20px;
@@ -357,8 +445,45 @@ section {
   letter-spacing: 0.05em;
 }
 
+#about i {
+  font-size: 30px;
+}
+
 .content-box {
   padding: 60px 20px;
+}
+
+/* CONTACT ME */
+/* CONTACT ME */
+/* CONTACT ME */
+
+.contact-section {
+  background-image: url("assets/background4.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#contact h4 {
+  font-weight: 400;
+  color: #62656a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#contact h4:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: 30px;
+  color: #656482;
+}
+
+#contact i:hover {
+  transition: 0.3s;
+  font-weight: 400;
+  font-size: 25px;
+  color: #656482;
 }
 
 /* FOOTER */
@@ -395,31 +520,37 @@ footer li {
 }
 
 footer a {
-  color: #62656a;
+  color: #aeb3bd;
 }
 
 footer a:hover {
-  color: #0095f7;
+  color: #aeb3bd;
   text-decoration: none;
 }
 
 footer i {
   font-size: 25px;
-  color: #62656a;
+  color: #aeb3bd;
   margin-right: 10px;
 }
 
 footer i:hover {
-  color: #0095f7;
+  color: #aeb3bd;
 }
 
 footer small {
-  color: #62656a;
+  color: #aeb3bd;
   float: right;
 }
 
 .external-links {
-  color: #0095f7;
+  color: #aeb3bd;
+}
+
+.external-links:hover {
+  color: #ffffff;
+  transition: 0.2s;
+  font-size: 15px;
 }
 
 .btn-regular {
