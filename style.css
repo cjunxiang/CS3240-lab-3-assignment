@@ -81,3 +81,132 @@ section {
 .nav-right {
   float: right;
 }
+
+/* HERO */
+/* HERO */
+/* HERO */
+
+#hero {
+  background-color: #ffffff;
+}
+
+#hero h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #5c6527;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#hero span {
+  font-weight: 400;
+  color: #4b5320;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* PAST EXPERIENCE */
+/* PAST EXPERIENCE */
+/* PAST EXPERIENCE */
+#experiences {
+  background-color: #f6f8f9;
+  border-top: 1px solid #f8f9fb;
+  border-bottom: 1px solid #f8f9fb;
+}
+
+.experience-box {
+  background-color: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+    0 10px 16px 0 rgba(10, 31, 68, 0.06);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.experience-box h6 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.experience-box p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 25px;
+  line-height: 1.8;
+  padding: 0px;
+}
+
+.experience-box i {
+  color: #ffffff;
+}
+
+.experience-box small {
+  color: #8da2b5;
+  display: inline-block;
+}
+
+.experience-box span {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.rating {
+  background-color: #0095f7;
+  padding: 2px 12px;
+  border-radius: 50px;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.review-xfers {
+  background-image: url("assets/experiences/xfers.jpeg");
+}
+
+.review-gff {
+  background-image: url("assets/experiences/gff.png");
+}
+
+.review-taby {
+  background-image: url("assets/experiences/taby.png");
+}
+
+.review-rhdevs {
+  background-image: url("assets/experiences/rhd.png");
+}
+
+.review-247tickets {
+  background-image: url("assets/experiences/247.svg");
+}
+
+.review-block71 {
+  background-image: url("assets/experiences/block71.png");
+}
+
+.review-grantuncle {
+  background-image: url("assets/experiences/grantuncle.png");
+}
+
+.review-saf {
+  background-image: url("assets/experiences/saf.png");
+}
+
+.personal-info {
+  padding: 5px 0 20px 0;
+  border-bottom: 1px solid #edf1f2;
+}
