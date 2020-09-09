@@ -105,6 +105,12 @@ section {
   color: #86959c !important;
 }
 
+.navbar a:hover {
+  font-size: 13px;
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
 .nav-right {
   float: right;
 }
@@ -155,6 +161,13 @@ section {
   margin-top: 30px;
 }
 
+.experience-box:hover {
+  background-color: #dde3f0 !important;
+  transition: 0.3s;
+  box-shadow: 0 1px 0 0 rgba(0, 12, 32, 0.04),
+    0 10px 16px 0 rgba(10, 31, 68, 0.06);
+}
+
 .experience-box h6 {
   font-size: 22px;
   font-weight: 700;
@@ -192,6 +205,7 @@ section {
 }
 
 .profile-picture {
+  background-color: #ffffff;
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -252,6 +266,13 @@ section {
   margin-top: 30px;
 }
 
+.cca-box:hover {
+  background-color: #dde3f0 !important;
+  transition: 0.3s;
+  box-shadow: 0 1px 0 0 rgba(0, 12, 32, 0.04),
+    0 10px 16px 0 rgba(10, 31, 68, 0.06);
+}
+
 .cca-box h3 {
   font-size: 22px;
   font-weight: 300;
@@ -279,7 +300,14 @@ section {
 .cca-box li {
   font-size: 14px;
   font-weight: 300;
-  color: #8da2b5;
+  color: #718291;
+  letter-spacing: 0.1em;
+}
+
+.cca-box li:hover {
+  font-size: 14px;
+  font-weight: 400;
+  color: #718291;
   letter-spacing: 0.1em;
 }
 
