@@ -1,0 +1,83 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #292c31;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #292c31;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+b {
+  font-weight: 700;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+/* NAV BAR */
+/* NAV BAR */
+/* NAV BAR */
+
+.custom-navbar {
+  background-color: #292c31 !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  height: 70px;
+  max-height: 70px;
+}
+
+.navbar-toggler {
+  font-size: 38px;
+  background-color: transparent;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  color: #292c31;
+}
+
+.navbar-collapse {
+  background-color: #292c31;
+}
+
+.nav-custom-link {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+}
+
+.navbar a {
+  color: #86959c !important;
+}
+
+.nav-right {
+  float: right;
+}
